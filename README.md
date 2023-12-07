@@ -39,7 +39,7 @@ iStore 官方的软件仓库支持 `x86_64`，`arm64` 两个架构，这两个�
 只需在固件编译目录下执行：
 ```shell
 echo >> feeds.conf.default
-echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
+echo 'src-git istore https://github.com/zijieKwok/istore;main' >> feeds.conf.default
 ./scripts/feeds update istore
 ./scripts/feeds install -d y -p istore luci-app-store
 ```
